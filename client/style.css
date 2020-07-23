@@ -56,7 +56,7 @@ header {
   margin-top: 14px;
 }
 
-.inner {
+.top {
   position: relative;
   width: 940px;
   margin: 0 auto;
@@ -64,13 +64,23 @@ header {
   background-color: #f0efe7;
 }
 
+.bottom {
+    display: flex;
+    margin-right: 25em;
+    background: transparent url(/images/bg/isometric-grid@2x.png) top right repeat;
+    background-size: 35px 21px;
 
-#masthead .inner p {
-  width: 558px;
-  margin-bottom: 1.2em;
-  font-size: 18px;
-  line-height: 26.4px;
 }
-*, ::after, ::before {
-  box-sizing: border-box;
+
+img.illustration {
+  position: absolute;
+  right: 12px;
+  top: auto;
+  height: 14em;
+  width: 20em;
 }
+
+a:link {
+  color: #009999;
+}
+
